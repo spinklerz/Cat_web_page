@@ -1,0 +1,59 @@
+
+html,
+body {
+  height: 100%; /* Make sure html and body take full height */ /* Make sure html and body take full width */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+#front {
+  background-image: url("./cat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; /* Make the top section full height */
+  width: 100%; /* Make the top section full width */
+}
+img {
+  width: 0;
+  height: 0;
+}
+.bottom .columns {
+  position: relative;
+}
+.bottom {
+  background-color: #ffffff; /* Optional: background for bottom section */
+  padding: 20px; /* Optional: add some padding */
+  z-index: -1;
+  width: 100%;
+}
+
+header h1 {
+  position: relative;
+  left: 48%;
+  top: 15%;
+  z-index: 1;
+  width: 40%;
+  text-align: center;
+}
+
+.bottom h1 {
+  text-align: center;
+}
+
+.fraunces-text {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* You can adjust the weight as needed */
+  font-style: normal;
+  font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+
+button {
+  position: relative;
+  top:50%;
+}
+
+footer {
+  text-align: center;
+  font-size: 50px;
+}
